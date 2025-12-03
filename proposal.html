@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Proposal Assignment - Efe Çakır</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="container nav-wrapper">
+    <div class="logo">Efe Çakır</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="instructions.html">Instructions</a>
+      <a href="cover-resume.html">Cover Letter & Résumé</a>
+      <a href="proposal.html" class="active">Proposal</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="page-header">
+    <h1>Proposal Assignment</h1>
+    <p class="lead">
+      This proposal outlines a low-cost project to improve Quup Systems’ digital advertising
+      by building a structured keyword tracking system for Google Ads.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Assignment Overview</h2>
+    <p>
+      For this ENC 3241 project, I modeled my writing on a research-style proposal. The document
+      explains the background of Quup Systems, defines a clear problem related to advertising
+      performance, and presents realistic goals, methods, a timeline, a budget, and expected outcomes.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Download the Final Proposal (PDF)</h2>
+    <p>
+      You can view or download the full proposal using the link below:
+    </p>
+    <p>
+      <a class="btn-primary" href="proposal.pdf" target="_blank" rel="noopener">Open Proposal PDF</a>
+    </p>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-content">
+    <p>&copy; <span id="year"></span> Efe Çakır · ENC 3241 Digital Portfolio</p>
+  </div>
+</footer>
+
+<script>
+  const ySpan = document.getElementById('year');
+  if (ySpan) { ySpan.textContent = new Date().getFullYear(); }
+</script>
+</body>
+</html>

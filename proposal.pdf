@@ -1,0 +1,32 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 3525 >>
+stream
+BT /F1 10 Tf 50 800 Td 0 -14 Td (IMPROVING QUUP SYSTEMS? DIGITAL ADVERTISING THROUGH STRUCTURED KEYWORD TRACKING) Tj 0 -14 Td () Tj 0 -14 Td (1. Introduction / Background) Tj 0 -14 Td (Quup Systems is a growing ecommerce company that specializes in aluminum bathroom accessories and home-heating products. The business already uses Shopify and Google Ads to reach potential customers, but advertising performance is inconsistent. Some keywords perform well, while others spend money without generating meaningful results. There is currently no simple, centralized system for organizing keyword data and learning from it over time.) Tj 0 -14 Td () Tj 0 -14 Td (2. Problem Statement) Tj 0 -14 Td (Without structured keyword tracking, Quup Systems has limited visibility into which search terms are driving clicks, conversions, and sales. Decisions about budgets and targeting are based on partial information. This increases wasted ad spend and makes it harder to scale the business effectively. A low-cost, systematic approach to tracking and analyzing keywords is needed.) Tj 0 -14 Td () Tj 0 -14 Td (3. Goals and Objectives) Tj 0 -14 Td (The goal of this project is to design and test a simple keyword tracking system that will help Quup Systems improve its Google Ads performance. Specific objectives include:) Tj 0 -14 Td (- Create a structured spreadsheet to store keyword metrics.) Tj 0 -14 Td (- Record weekly performance data for selected campaigns.) Tj 0 -14 Td (- Identify high-performing and low-performing keywords.) Tj 0 -14 Td (- Recommend adjustments to bids, budgets, and targeting based on data.) Tj 0 -14 Td () Tj 0 -14 Td (4. Methods / Approach) Tj 0 -14 Td (The project will be completed in several steps:) Tj 0 -14 Td (- Set up a spreadsheet in Excel or Google Sheets with columns for keyword, campaign, clicks, impressions, click-through rate \(CTR\), conversions, cost, and return on ad spend \(ROAS\).) Tj 0 -14 Td (- Export keyword performance reports from Google Ads once per week.) Tj 0 -14 Td (- Copy or import the data into the spreadsheet and format it consistently.) Tj 0 -14 Td (- Use basic formulas and conditional formatting to highlight strong and weak keywords.) Tj 0 -14 Td (- Make monthly recommendations to pause, adjust, or expand specific keywords.) Tj 0 -14 Td () Tj 0 -14 Td (5. Timeline) Tj 0 -14 Td (Week 1: Build the spreadsheet structure and add initial keyword data.) Tj 0 -14 Td (Weeks 2?4: Collect weekly data, review trends, and note any major changes.) Tj 0 -14 Td (Week 5: Evaluate which keywords have the best and worst performance.) Tj 0 -14 Td (Week 6: Write a short summary report and outline recommendations for next steps.) Tj 0 -14 Td () Tj 0 -14 Td (6. Budget) Tj 0 -14 Td (This project is intentionally low-cost. It uses existing tools and a small test budget.) Tj 0 -14 Td (- Google Ads test budget: $100) Tj 0 -14 Td (- Spreadsheet tools \(Excel or Google Sheets\): $0 \(already available\)) Tj 0 -14 Td (- Labor for data entry and analysis: $0 \(completed by the student\)) Tj 0 -14 Td () Tj 0 -14 Td (Total Estimated Budget: $100) Tj 0 -14 Td () Tj 0 -14 Td (7. Expected Outcomes) Tj 0 -14 Td (At the end of the project, Quup Systems will have:) Tj 0 -14 Td (- A clear, reusable spreadsheet for keyword tracking.) Tj 0 -14 Td (- A better understanding of which keywords are worth continued investment.) Tj 0 -14 Td (- Recommendations for reducing wasted ad spend.) Tj 0 -14 Td (- A simple process that can be repeated and expanded as the business grows.) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000003818 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+3888
+%%EOF

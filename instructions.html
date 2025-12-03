@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Instructions Assignment - Efe Çakır</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="container nav-wrapper">
+    <div class="logo">Efe Çakır</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="instructions.html" class="active">Instructions</a>
+      <a href="cover-resume.html">Cover Letter & Résumé</a>
+      <a href="proposal.html">Proposal</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="page-header">
+    <h1>Instructions Assignment</h1>
+    <p class="lead">
+      This project provides step-by-step instructions for creating a Google Ads account from scratch.
+      The goal is to make the setup process easy and safe for beginners who have never used digital
+      advertising before.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Assignment Overview</h2>
+    <p>
+      In this ENC 3241 assignment, I focused on clarity, organization, and accessibility. The
+      instructions walk users through each step, from visiting the Google Ads website to skipping
+      the automatic campaign creation flow, so they do not accidentally spend money before they
+      are ready. The document uses headings, numbered steps, and brief explanations to support
+      a wide range of readers.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Download the Final Instructions (PDF)</h2>
+    <p>
+      You can view or download the full instructions document using the link below:
+    </p>
+    <p>
+      <a class="btn-primary" href="instructions.pdf" target="_blank" rel="noopener">Open Instructions PDF</a>
+    </p>
+    <p class="small-note">
+      If the PDF does not open in your browser, it will download instead. You can then open it with any PDF reader.
+    </p>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-content">
+    <p>&copy; <span id="year"></span> Efe Çakır · ENC 3241 Digital Portfolio</p>
+  </div>
+</footer>
+
+<script>
+  const ySpan = document.getElementById('year');
+  if (ySpan) { ySpan.textContent = new Date().getFullYear(); }
+</script>
+</body>
+</html>

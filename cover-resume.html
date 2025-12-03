@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cover Letter & Résumé - Efe Çakır</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="container nav-wrapper">
+    <div class="logo">Efe Çakır</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="instructions.html">Instructions</a>
+      <a href="cover-resume.html" class="active">Cover Letter & Résumé</a>
+      <a href="proposal.html">Proposal</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="page-header">
+    <h1>Cover Letter & Résumé</h1>
+    <p class="lead">
+      These documents are tailored for a software engineering internship at Quup Systems.
+      They highlight my Computer Science coursework, technical skills, and hands-on experience
+      running an ecommerce business.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Cover Letter</h2>
+    <p>
+      The cover letter introduces me as a candidate, connects my academic background and
+      Quup Systems experience, and explains how I can contribute in a technical role.
+    </p>
+    <p>
+      <a class="btn-primary" href="cover-letter.pdf" target="_blank" rel="noopener">Open Cover Letter PDF</a>
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Résumé</h2>
+    <p>
+      The résumé summarizes my education, skills, work experience, and relevant projects.
+      It is formatted as a one-page document suitable for internship applications.
+    </p>
+    <p>
+      <a class="btn-primary" href="resume.pdf" target="_blank" rel="noopener">Open Résumé PDF</a>
+    </p>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-content">
+    <p>&copy; <span id="year"></span> Efe Çakır · ENC 3241 Digital Portfolio</p>
+  </div>
+</footer>
+
+<script>
+  const ySpan = document.getElementById('year');
+  if (ySpan) { ySpan.textContent = new Date().getFullYear(); }
+</script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Efe Çakır - Digital Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="container nav-wrapper">
+    <div class="logo">Efe Çakır</div>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="instructions.html">Instructions</a>
+      <a href="cover-resume.html">Cover Letter & Résumé</a>
+      <a href="proposal.html">Proposal</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <h1>ENC 3241 Digital Portfolio</h1>
+    <p>
+      Welcome to my digital portfolio for ENC 3241: Writing for the Technical Professions.
+      This site showcases my instructions assignment, cover letter and résumé, and proposal
+      in a clean, professional format.
+    </p>
+    <a class="btn-primary" href="instructions.html">View My Work</a>
+  </section>
+
+  <section class="card-grid">
+    <article class="card">
+      <h2>About Me</h2>
+      <p>
+        I’m <strong>Efe Çakır</strong>, a Computer Science student at the University of Central Florida
+        with an interest in software development, technical communication, and ecommerce systems.
+        I enjoy building practical solutions and creating clear documentation for real users.
+      </p>
+      <p>
+        Outside of coursework, I run <strong>Quup Systems</strong>, an ecommerce startup that sells modern
+        aluminum bathroom and home-heating products. This hands-on experience has helped me connect
+        technical work with real business needs.
+      </p>
+    </article>
+
+    <article class="card">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.S. in Computer Science</strong>, University of Central Florida (in progress)</li>
+        <li>Relevant courses: Technical Writing, C Programming, Computer Logic, Calculus, Statistics</li>
+      </ul>
+    </article>
+
+    <article class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li>Programming in C; debugging and problem solving</li>
+        <li>Technical writing and documentation</li>
+        <li>Ecommerce: Shopify, product listings, keyword planning</li>
+        <li>Google Ads and basic digital advertising</li>
+        <li>Excel and Google Sheets for data organization</li>
+        <li>Basic web: HTML/CSS, Wix</li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="card">
+    <h2>About This Portfolio</h2>
+    <p>
+      This portfolio contains three revised projects from ENC 3241:
+    </p>
+    <ul>
+      <li><strong>Instructions Assignment</strong> – How to create a Google Ads account.</li>
+      <li><strong>Cover Letter & Résumé</strong> – Application materials for a software engineering internship at Quup Systems.</li>
+      <li><strong>Proposal Assignment</strong> – A project to improve Quup Systems’ digital advertising through structured keyword tracking.</li>
+    </ul>
+    <p>
+      Each page includes a brief overview and a downloadable PDF of the final document.
+    </p>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-content">
+    <p>&copy; <span id="year"></span> Efe Çakır · ENC 3241 Digital Portfolio</p>
+  </div>
+</footer>
+
+<script>
+  const ySpan = document.getElementById('year');
+  if (ySpan) { ySpan.textContent = new Date().getFullYear(); }
+</script>
+</body>
+</html>
